@@ -1,4 +1,14 @@
 sys-kernel/gentoo-sources ~amd64
 x11-wm/xmonad ~mad64
 x11-misc/xmobar ~amd64
-
+sys-kernel/gentoo-kernel ~amd64
+# required by sys-kernel/gentoo-kernel-5.11.12::gentoo
+# required by sys-kernel/gentoo-kernel (argument)
+=virtual/dist-kernel-5.11.12 ~amd64
+# required by discord-bin (argument)
+=net-im/discord-bin-0.0.14 ~amd64
+# required by lxappearance (argument)
+=lxde-base/lxappearance-0.6.3-r2 ~amd64
+# required by games-action/multimc (argument)
+=games-action/multimc-0.6.12 ~amd64
+=app-misc/ranger-9999 **

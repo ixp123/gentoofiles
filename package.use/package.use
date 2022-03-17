@@ -1,0 +1,6 @@
+app-emulation/virtualbox python
+media-gfx/nsxiv jpeg png gif exif
+media-libs/imlib2 X bzip2 gif jpeg mp3 png shm tiff webp zlib
+media-fonts/nerd-fonts mononoki hack
+media-libs/opencv contrib contribdnn eigen features2d ffmpeg jpeg opengl openmp png python tiff
+media-libs/opengl qt5

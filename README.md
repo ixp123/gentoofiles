@@ -1,5 +1,5 @@
-# Gentoo Linux make.conf, package.use, and package.accept_keywords
-Overlays used:
+# Gentoo Linux portage files
+Overlays:
 dinolay
 
 GURU

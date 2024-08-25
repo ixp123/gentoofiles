@@ -1,24 +1,36 @@
+# Allow installing unstable packages
 sys-kernel/gentoo-sources ~amd64
-sys-kernel/gentoo-kernel ~amd64
-=sys-libs/glibc-2.34-r9 ~amd64
-=virtual/dist-kernel-5.11.12 ~amd64
-=net-im/discord-bin-0.0.14 ~amd64
-=lxde-base/lxappearance-0.6.3-r2 ~amd64
-=media-libs/dav1d-9999 **
-=dev-libs/nss-3.74 ~amd64
-=www-client/librewolf-95.0.2 ~amd64
-=dev-python/emoji-1.6.3 ~amd64
-=games-util/steam-meta-0-r20160817 ~amd64
-=games-util/game-device-udev-rules-20201228 ~amd64
-=games-util/steam-launcher-1.0.0.74 ~amd64
-=games-util/steam-client-meta-0-r20211228 ~amd64
-=games-util/steam-games-meta-0-r20211230 ~amd64
-=media-libs/libopenshot-audio-0.2.2 ~amd64
-=media-video/openshot-2.6.1 ~amd64
-=media-libs/libopenshot-0.2.7 ~amd64
-=media-video/shotcut-21.10.31 ~amd64
-=media-sound/cava-0.7.4 ~amd64
-=app-misc/tty-clock-2.3 ~amd64
-=dev-ruby/paint-2.2.1 ~amd64
-=dev-ruby/optimist-3.0.1 ~amd64
-=dev-lang/tcc-0.9.27_p20211022 ~amd64
+sys-kernel/linux-headers ~amd64
+sys-kernel/installkernel ~amd64
+app-misc/ranger ~amd64
+media-sound/ncmpcpp     **
+media-fonts/nerd-fonts ~amd64
+gui-apps/tuigreet ~amd64
+# required by sys-kernel/ugrd-1.16.0::gentoo
+# required by ugrd (argument)
+=dev-python/zenlib-2.2.0 ~amd64
+# required by sys-kernel/ugrd-1.16.0::gentoo
+# required by ugrd (argument)
+=dev-python/pycpio-1.2.1 ~amd64
+# required by ugrd (argument)
+=sys-kernel/ugrd-1.16.0 ~amd64
+# required by www-apps/element (argument)
+=www-apps/element-1.11.71 ~amd64
+# required by net-im/element-desktop-bin (argument)
+=net-im/element-desktop-bin-1.11.70 ~amd64
+# required by iamb (argument)
+=net-im/iamb-0.0.9 ~amd64
+# required by webcord (argument)
+=net-im/webcord-4.10.0 ~amd64
+# required by net-im/webcord-4.10.0::thegreatmcpain
+# required by webcord (argument)
+=dev-util/esbuild-0.23.0 ~amd64
+# required by pfetch (argument)
+=app-misc/pfetch-1.3.0 ~amd64
+# required by lf (argument)
+=app-misc/lf-32 ~amd64
+# required by app-emulation/wine-staging-9.15::gentoo[mono]
+# required by wine-staging (argument)
+=app-emulation/wine-mono-9.2.0 ~amd64
+# required by wine-staging (argument)
+=app-emulation/wine-staging-9.15 ~amd64
